@@ -1,0 +1,155 @@
+.content-part-two {
+    .left-tet {
+        width: 100%;
+        cursor: pointer;
+
+
+        .left-tet-link {
+            position: fixed;
+            background: #f7d453;
+            border-radius: 10px;
+
+            a {
+                font-size: 15px;
+                color: black;
+            }
+
+            :hover {
+                color: red;
+                text-decoration: underline;
+            }
+        }
+
+        .option-study-for-test {
+            position: absolute;
+            width: 90%;
+
+            .vocabulary-study-test-one {
+
+
+                width: 100%;
+                height: 100px;
+                text-align: center;
+                border-radius: 15px;
+                margin-top: 10px;
+                background: #1d7ab1;
+
+                p {
+                    margin-top: 25px;
+                    font-size: 20px;
+                    color: white;
+                }
+
+            }
+
+            .grammar-study-test-one {
+                width: 100%;
+                height: 100px;
+
+                text-align: center;
+                border-radius: 15px;
+                margin-top: 10px;
+                background: #646464;
+
+                p {
+                    margin-top: 25px;
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+
+            .tip-study-test-one {
+                width: 100%;
+                height: 100px;
+
+                text-align: center;
+                border-radius: 15px;
+                margin-top: 10px;
+                background: #7c3c15;
+
+                p {
+                    margin-top: 25px;
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+
+            .guide-study-test-one {
+                width: 100%;
+                height: 100px;
+
+                text-align: center;
+                border-radius: 15px;
+                margin-top: 10px;
+                background: #c53939;
+
+                p {
+                    margin-top: 25px;
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+
+            .study-test-one {
+                width: 100%;
+                height: 100px;
+
+                text-align: center;
+                border-radius: 15px;
+                margin-top: 10px;
+                background: #2f892f;
+
+                p {
+                    margin-top: 25px;
+                    font-size: 25px;
+                    color: white;
+                }
+            }
+
+            .score-exam-result-study-test-one {
+                width: 100%;
+                height: 100px;
+
+                text-align: center;
+                border-radius: 15px;
+                margin-top: 10px;
+                background: #292930;
+
+                p {
+                    margin-top: 25px;
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+    .conttent-study-for-test-two {
+        .title-content {
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 10px;
+            font-family: monospace;
+            color: brown;
+            display: flex;
+            text-align: justify;
+        }
+
+        .content-title {
+            font-size: 15px;
+            font-weight: 400;
+            font-family: sans-serif;
+            text-align: justify;
+            margin: 10px;
+        }
+    }
+
+    .guide-study-for-test-two {
+        float: right;
+    }
+
+    .conttent-study-for-test-two {
+        font-size: 20px;
+    }
+}

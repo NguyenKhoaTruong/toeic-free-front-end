@@ -1,0 +1,127 @@
+.background-testonline {
+    .testonline {
+        .row {
+            margin-right: 15px;
+
+            .content-testonline {
+                text-align: justify;
+
+                h4 {
+                    margin: 10px;
+                    font-size: 25px;
+                    font-weight: 700;
+                    font-family: monospace;
+
+                }
+
+                h5 {
+                    margin: 10px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    font-family: unset;
+                }
+
+                h6 {
+                    margin: 10px;
+                }
+
+                p {
+                    margin: 10px;
+                    font-size: 18px;
+                    font-family: sans-serif;
+                }
+
+                b {
+                    font-size: 18px;
+                }
+
+                li {
+                    font-size: 18px;
+                    list-style-type: disc;
+                    margin-left: 80px;
+                    font-family: sans-serif;
+                }
+
+                td {
+                    font-size: 18px;
+                }
+
+                th {
+                    font-size: 18px;
+                    width: 200px;
+                }
+
+                img {
+                    margin: 10px;
+                }
+
+                iframe {
+                    width: 100%;
+                    height: 500px;
+                }
+            }
+
+            .main-content-nav-testonine {
+                width: 100%;
+                height: 100%;
+
+                .main-content {
+                    position: fixed;
+                    top: 53px;
+                    background: #ffd589;
+                    border-radius: 10px;
+                    right: 0;
+
+                    .span-main-content {
+                        font-size: 25px;
+                        font-family: cursive;
+                    }
+
+                    .li-main-content {
+                        font-size: 19px;
+                        margin-top: 15px;
+
+                        a {
+                            text-decoration: none;
+                            color: black;
+
+
+                        }
+
+                        :hover {
+                            color: red;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .main-content {
+        display: none !important;
+
+    }
+
+    .content-testonline {
+        width: 360px !important;
+        margin: 0 !important;
+
+        p {}
+
+        ul {
+            display: none;
+        }
+
+        img {
+            width: 320px;
+            height: 320px;
+        }
+
+        table {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,185 @@
+.container-detail-grammar {
+
+    // width: 100%;
+    // height: 1000px;
+    .content-grammar-detail {
+
+        // height: 900px;
+        .img-detail-gammar {
+            height: 700px;
+            // border: 1px solid red;
+
+            .img-gammar-detail {
+                height: 600px;
+                background: center center no-repeat;
+                background-size: contain;
+            }
+        }
+
+        .all-detail-grammar {
+            margin-right: -15px !important;
+
+            .detail-list-grammar {
+                .detail-title-list-grammar {
+                    .title-name-list {
+                        font-size: 30px;
+                        font-weight: 900;
+                        // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                }
+
+                .content-show-detail {
+                    .row-content-show-detail {
+                        .show-all-detail {
+                            .list-show-deatil-grammar {
+                                .content-detail-grammar-item-content-html {
+                                    width: 100%;
+                                    margin-left: 5px;
+                                    line-height: 25px;
+                                    // display: -webkit-box;
+                                    margin-right: 5px;
+                                    font-weight: 100;
+                                    margin-left: 10px;
+
+                                    p {
+                                        font-size: 16px;
+                                        font-weight: bolder;
+                                        text-align: justify;
+
+                                        strong {
+                                            font-size: 16px;
+                                            display: flex;
+
+                                            margin-top: 10px;
+                                            margin-bottom: 10px;
+                                        }
+                                    }
+
+                                    li {
+                                        font-size: 16px;
+                                        font-weight: 350;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .show-grammar-lq {
+
+                        // height: 1000px;
+                        .show-img-fix {
+
+                            // top: 390px;
+                            // position: fixed;
+                            // width: 20%;
+                            .img-ad-grammar {
+                                width: 100%;
+                                height: max-content;
+                                cursor: pointer;
+
+                                img {
+                                    width: 97%;
+                                    height: 200px;
+                                    margin: 10px;
+                                    border-radius: 5px;
+                                    transition: transform .3s;
+                                }
+
+                                :hover {
+                                    -ms-transform: scale(1.5);
+                                    -webkit-transform: scale(1.5);
+                                    transform: scale(1.5);
+                                }
+                            }
+                        }
+
+                        .detail-grammar-related {
+                            width: 100%;
+                            height: max-content;
+
+                            .list-related-detail {
+                                width: 100%;
+                                height: 370px;
+                                border-radius: 10px;
+                                margin-top: 10px;
+
+                                .detail-img-of-list-related {
+                                    width: 95%;
+                                    cursor: pointer;
+                                    border-radius: 10px;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: contain;
+                                    margin: 10px;
+                                    height: 250px;
+                                }
+
+                                .name-detail-grammar-item-related {
+                                    font-size: 20px;
+                                    font-family: monospace;
+                                    margin-left: 10px;
+                                    margin-right: 10px;
+                                }
+                            }
+
+                            .title-detail-grammar-related {
+                                font-size: 20px;
+                                color: black;
+                                margin-left: 10px;
+                                font-weight: 900;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .comment-grammar {
+            margin-right: 0px !important;
+            padding-left: 20px;
+            padding-right: 8px;
+
+            .comment-grammar-for-user-detail {
+                .text-comment {
+                    font-size: 25px;
+                }
+
+                .get-all-comment-grammar {
+                    display: flex;
+
+                    .img-comment {
+                        height: 70px;
+                        width: 70px;
+                        border-radius: 50%;
+                        margin-top: 15px;
+                        background: center center no-repeat;
+                        background-size: cover;
+                    }
+
+                    .comment-for-user {
+                        margin-top: 17px;
+                        margin-left: 12px;
+                        font-size: 22px;
+                        width: 100%;
+                        height: 70px;
+                        padding: 10px;
+                    }
+                }
+
+                .get-user-comment-grammar {
+                    margin-top: 20px;
+
+                    .text-comment {
+                        font-size: 25px;
+                    }
+
+                    .input-comment {}
+
+                    .btn-comment-grammar {}
+                }
+            }
+        }
+    }
+}

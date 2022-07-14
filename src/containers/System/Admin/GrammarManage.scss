@@ -1,0 +1,22 @@
+.content-manage-grammar {
+    display: flex;
+    padding-left: 10px;
+
+    // .list-manage {
+    //     width: 20%;
+    //     cursor: pointer;
+    // }
+
+    .grammars-container {
+        width: 100%;
+
+        .col-md-12.mb-3.preview-image-grammar {
+            background: center center no-repeat;
+            background-size: contain;
+            height: 100px;
+            width: 100px;
+            border: 1px solid #ede0e0;
+        }
+    }
+
+}

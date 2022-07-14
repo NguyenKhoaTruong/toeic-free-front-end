@@ -1,0 +1,50 @@
+.table-vocabulary {
+    .content {
+        width: 120px;
+        text-align: center;
+    }
+
+    .content-audio {
+        width: 330px;
+    }
+
+    .transcribe {
+        width: 100px;
+    }
+
+    .meaning {
+        width: 100px;
+    }
+
+    .sentence {
+        text-align: left;
+    }
+}
+
+.data-vocabulary-from-table {
+    width: 100%;
+
+    .image-vocabulary-table {
+        text-align: center;
+
+        .img-vocabulary-table {
+            width: 250px;
+            height: 200px;
+            border-radius: 10px;
+        }
+    }
+
+    .conttent-vocabulary-table {
+        display: grid;
+    }
+}
+
+.text-title-learn-vocabulary {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-title-learn-vocabulary-img {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

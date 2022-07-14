@@ -1,0 +1,21 @@
+footer.page-footer.red.font-small.pt-4.mt-4 {
+    background-color: #051e3a;
+    // background-image: linear-gradient(to right, #0964b0, #2c99d6);
+    // background: rgb(17, 104, 145);
+    height: 550px;
+}
+
+
+
+.list-unstyled {
+    cursor: pointer;
+}
+
+.footer-copyright {
+    border-top: 1px solid white;
+
+    .copyright {
+        font-size: 1rem;
+        color: white;
+    }
+}

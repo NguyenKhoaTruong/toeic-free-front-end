@@ -1,0 +1,180 @@
+.container-detail-vocabulary {
+    .content-detail-vocabulary {
+        .ad-detail-vocabulary {
+            .img-ad-detail-vocabulary {
+                width: 900px;
+                height: 700px;
+                background-repeat: round;
+                background-size: cover;
+            }
+        }
+
+        .content-detail-vocabulary-list {
+            // margin-right: 15px;
+            margin-top: 20px;
+
+            .show-content-detail-vocabulary {
+                // text-align: center;
+
+                .title-text-detail-vocabulary {
+                    font-size: 30px;
+                    color: red;
+                    font-family: sans-serif;
+                    margin: 10px;
+                }
+
+                .list-option-detail-vocabulary-part {
+                    text-align: center;
+
+                    .item-option {
+                        width: 250px;
+                        height: 250px;
+                        text-align: center;
+                        display: inline-grid;
+                        margin: 10px;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: transform linear 0.2s;
+                        transform: translateY(0);
+
+                        &:hover {
+                            transform: translateY(-3px);
+                        }
+
+                        .img-part-option {
+                            width: 90%;
+                            height: 200px;
+                            border-radius: 20px;
+                            margin: 10px;
+                            background-size: cover;
+                            background-repeat: round;
+                        }
+
+                        .name-part-option {
+                            font-size: 20px;
+                            font-weight: 800;
+                        }
+                    }
+                }
+
+                .content-text-detail-vocabulary {
+                    .main-content-detail-vocabulary {
+                        .list-main-content-detail-vocabulary {
+                            .title-list-main {
+                                font-size: 20px;
+
+                            }
+
+                            .option-list-main {
+                                a {
+                                    margin: 5px;
+                                    display: flex;
+                                    text-align: justify;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+
+                    .text {
+                        .title-step {
+                            font-size: 20px;
+                            color: deeppink;
+                            text-align: justify;
+                        }
+
+                        .content-title-step {
+                            font-size: 15px;
+                            text-align: justify;
+                        }
+
+                        .pager {
+                            list-style: none;
+                            display: flex;
+
+                            li {
+                                cursor: pointer;
+                                display: inline-block;
+                                padding: 5px;
+                                font-size: 15px;
+                                font-weight: bold;
+                            }
+
+                            li.active {
+                                background-color: #ffc107;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+
+                    .share-content-detail-vocabulary {
+                        width: 100%;
+
+                        .img-show-share-content-detail-vocabulary {
+                            width: 100%;
+                            margin-top: 10px;
+                            transition: transform .3s;
+                            cursor: pointer;
+                        }
+
+                        // :hover {
+
+                        //     width: 400px;
+                        //     -ms-transform: scale(1.5);
+                        //     -webkit-transform: scale(1.5);
+                        //     transform: scale(1.5);
+
+                        // }
+                    }
+                }
+
+
+            }
+        }
+
+        .comment-vocabulary {
+
+            .comment-vocabulary-for-user-detail {
+                .text-comment {
+                    font-size: 25px;
+                    margin-top: 15px;
+                }
+
+                .get-all-comment-vocabulary {
+                    display: flex;
+
+                    .img-comment {
+                        height: 70px;
+                        width: 70px;
+                        border-radius: 50%;
+                        margin-top: 15px;
+                        background: center center no-repeat;
+                        background-size: cover;
+                    }
+
+                    .comment-for-user {
+                        margin-top: 17px;
+                        margin-left: 12px;
+                        font-size: 22px;
+                        width: 100%;
+                        height: 70px;
+                        padding: 10px;
+                    }
+                }
+
+                .get-user-comment-vocabulary {
+                    margin-top: 20px;
+
+                    .text-comment {
+                        font-size: 25px;
+                    }
+
+                    .input-comment {}
+
+                    .btn-comment-vocabulary {}
+                }
+            }
+
+        }
+    }
+}

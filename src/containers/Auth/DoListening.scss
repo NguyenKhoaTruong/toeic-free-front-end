@@ -1,0 +1,36 @@
+// .number-img-question {
+//     width: 20%;
+// }
+.number-img-question {
+    width: 100%;
+
+    .menu-question-listening {
+        width: 15%;
+        position: fixed;
+        left: 20px;
+
+        .number-question {
+            .number-question-go1 {
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            .number-question-go {
+                font-size: 20px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.question-reading-number {
+    img {
+        height: 500px;
+        width: 500px;
+    }
+
+    .intro-listening-test {
+        font-size: 25px;
+        text-align: justify;
+    }
+}

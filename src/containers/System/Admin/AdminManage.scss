@@ -1,0 +1,93 @@
+.content-admin {
+    height: 1500px;
+
+    .container-admin {
+        height: 100%;
+
+        .container-option-admin {
+            z-index: 10000;
+
+            .content-optison-admin {
+                background-color: #efcaca;
+                position: fixed;
+                width: 16%;
+                top: 0;
+                height: 100%;
+                left: 0;
+
+                .pro-sidebar {
+                    width: 100%;
+
+                    .pro-sidebar-inner {
+                        background: #2c766a;
+                        color: white;
+
+                        .pro-sidebar-layout {
+                            overflow: unset;
+
+                            .pro-sidebar-content {
+                                .pro-menu {
+                                    .pro-menu-item {
+                                        .react-slidedown {
+                                            background-color: #4e3891;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .container-admin-info {
+            padding: 0 !important;
+
+            .content-admin-info {
+                height: 71px;
+
+                .nav-admin-info {
+                    background-color: #2c766a;
+                    position: fixed;
+                    width: 100%;
+                    top: 0;
+                    height: 70px;
+                    // left: 307px;
+                    left: 0;
+                    z-index: 1000;
+
+                    .content-nav-admin-info {
+                        height: 100%;
+
+                        .show-option-select {
+                            margin-top: 20px;
+
+
+                            .text-show-option-select {
+                                color: white;
+                                font-size: 18px;
+                                font-weight: bolder;
+                            }
+                        }
+
+                        .info-account-admin {
+                            margin-top: 20px;
+                        }
+                    }
+
+
+                    .name-admin {
+                        color: white;
+                    }
+
+                    .avatar-admin {}
+                }
+            }
+
+            .content-admin-use {
+                left: -18px;
+            }
+
+        }
+    }
+}

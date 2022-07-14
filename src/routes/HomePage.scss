@@ -1,0 +1,323 @@
+.slider-home-container {
+    // border: 1px solid red;
+    height: 900px;
+
+    // width: 1000px;
+    .slider-content {
+        // border: 1px solid blue;
+        height: 800px;
+        // width: 900px;
+
+        background-color: #f3f3f3ab;
+
+
+
+
+
+        button.slick-arrow.slick-prev {
+            /* border: 1px solid red; */
+            z-index: 10;
+            left: 50px;
+            background: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+
+            /* font-size: 30px !important; */
+
+
+        }
+
+        .slick-prev:before {
+
+            font-size: 50px;
+        }
+
+        button.slick-arrow.slick-next {
+            right: 50px;
+            z-index: 10;
+            background: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+
+        .slick-next:before {
+
+            font-size: 50px;
+        }
+
+        .slick-slider {
+            height: 100%;
+
+            .slick-list {
+                .slick-track {
+                    img {
+                        width: -webkit-fill-available;
+                        height: 800px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 570px) {
+
+    button.slick-arrow.slick-prev {
+        display: none !important;
+    }
+
+    button.slick-arrow.slick-next {
+        display: none !important;
+    }
+
+    .card-whyselect {
+        display: grid !important;
+    }
+
+    .chart-statistical {
+        display: grid !important;
+    }
+
+    .animated-paragraph {
+        font-size: 24px !important;
+    }
+
+    h3 {
+
+        font-size: 20px !important;
+    }
+
+    .img-update {
+        margin-left: 20px !important;
+    }
+
+    .title-update {
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .skill-exam-img {
+        margin-left: 20px !important;
+    }
+
+    .exam-detail-img {
+        margin-left: 20px !important;
+    }
+
+    .grammar-exam-img {
+        margin-left: 20px !important;
+    }
+
+    .importance {
+        font-size: 24px !important;
+    }
+
+    .rate-for-user {
+        font-size: 25px !important;
+    }
+}
+
+.background-whyselect-toeic {
+    background-color: #f3f3f3ab;
+
+
+    .card-whyselect {
+
+        display: flex;
+
+
+        .update-exam {
+
+            // img {
+            //     background-image: url('../assets/images/dropdown.svg');
+            // }
+            .img-update {
+                background-image: url('../assets/images/capnhatlientuc.gif');
+                height: 100px;
+                width: 100px;
+                background-size: cover;
+                border-radius: 50%;
+            }
+
+            cursor: pointer;
+            background: #00dfdf;
+            border-radius: 10px;
+        }
+
+        .skill-exam {
+            .skill-exam-img {
+                background-image: url('../assets/images/updateskill.gif');
+                height: 100px;
+                width: 100px;
+                background-size: cover;
+                border-radius: 50%;
+
+            }
+
+            cursor: pointer;
+            background: #ccf1f1;
+            border-radius: 10px;
+        }
+
+        .exam-detail {
+            .exam-detail-img {
+                background-image: url('../assets/images/dethicodapanvagiaithich.gif');
+                height: 100px;
+                width: 100px;
+                background-size: cover;
+                border-radius: 50%;
+            }
+
+            cursor: pointer;
+            background: #f0f2f5;
+            border-radius: 10px;
+        }
+
+        .grammar-exam {
+            .grammar-exam-img {
+                background-image: url('../assets/images/grammar.gif');
+                height: 100px;
+                width: 100px;
+                background-size: cover;
+                border-radius: 50%;
+            }
+
+            cursor: pointer;
+            background: #f1cece;
+            border-radius: 10px;
+        }
+    }
+}
+
+.importance {
+    font-weight: bold;
+}
+
+.background-chart {
+    background-color: #f3f3f3ab;
+
+    .chart-statistical {
+        display: flex;
+
+        .education-deparment {
+            font-size: 20px;
+            color: blue;
+            cursor: pointer;
+        }
+
+        .description-education-deparment {
+            width: 450px;
+            text-align: justify;
+            margin-right: 10px;
+            border-right: 1px solid gray;
+            padding-right: 20px;
+            border-bottom: 1px solid gray;
+
+            .content-education-deparment {
+                color: #6c757d;
+                // font-size: 15px;
+                word-spacing: normal;
+
+            }
+
+            .more-education-deparment {
+                font-size: 15px;
+                // justify-content: end;
+                float: right;
+                font-weight: bold;
+            }
+        }
+
+        .description-graduation-standards {
+            width: 450px;
+            text-align: justify;
+            border-right: 1px solid gray;
+            padding-right: 20px;
+            border-top: 1px solid gray;
+
+            .content-graduation-standards {
+                color: #6c757d;
+                // font-size: 15px;
+                word-spacing: normal;
+            }
+
+            .more-graduation-standards {
+                font-size: 15px;
+                float: right;
+                font-weight: bold;
+            }
+        }
+
+        .description-application-popular {
+            width: 450px;
+            text-align: justify;
+            margin-left: 10px;
+            border-top: 1px solid gray;
+            padding-left: 10px;
+            border-left: 1px solid gray;
+
+            .content-application-popular {
+                color: #6c757d;
+                // font-size: 15px;
+                word-spacing: normal;
+            }
+
+            .more-application-popular {
+                font-size: 15px;
+                float: right;
+                font-weight: bold;
+            }
+        }
+
+        .description-go-working {
+            width: 450px;
+            text-align: justify;
+            /* margin-left: 10px; */
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;
+            padding-left: 10px;
+
+            .content-go-working {
+                color: #6c757d;
+                // font-size: 15px;
+                word-spacing: normal;
+            }
+
+            .more-go-working {
+                font-size: 15px;
+                float: right;
+                font-weight: bold;
+            }
+        }
+
+        .go-working {
+            font-size: 20px;
+            color: blue;
+            cursor: pointer;
+
+        }
+
+        .graduation-standards {}
+
+        font-size: 20px;
+        // color: blue;
+        cursor: pointer;
+
+        .application-popular {
+            font-size: 20px;
+            // color: blue;
+            cursor: pointer;
+        }
+    }
+}
+
+img.img-fluid.avatar-contact.mr-4 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

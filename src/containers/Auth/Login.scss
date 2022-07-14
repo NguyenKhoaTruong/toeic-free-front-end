@@ -1,0 +1,165 @@
+.home-container {
+    overflow: hidden;
+
+    // .note-user-home-img {
+    //     cursor: pointer;
+    //     width: 50px;
+    //     height: 50px;
+    //     border-radius: 50%;
+    //     position: fixed;
+    //     z-index: 10;
+    //     right: 0;
+    //     top: 300px;
+    //     box-shadow: 5px 5px 15px 2px #565656;
+
+    // }
+
+
+    .site-title {
+        text-align: center;
+        border-bottom: 1px solid #111111;
+        margin-bottom: 24px;
+    }
+
+    .site-title h1 {
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+
+    img {
+        // width: 100%;
+    }
+
+    .content p {
+        line-height: 1.6em;
+        margin-bottom: 24px;
+    }
+
+    /* -- Slideout Sidebar -- */
+
+    .slideout-sidebar {
+        position: fixed;
+        top: 70px;
+        right: -500px;
+        z-index: 100;
+        width: 500px;
+        height: max-content;
+        padding: 20px;
+        // background-image: linear-gradient(180deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, .125));
+        border-radius: 10px;
+        transition: all 300ms ease-in-out;
+
+        .card {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #495057;
+            background-clip: border-box;
+            border: 1px solid rgba(0, 0, 0, .125);
+            border-radius: 1.5rem;
+        }
+    }
+
+    .slideout-sidebar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .slideout-sidebar ul li {
+        cursor: pointer;
+        padding: 18px 0;
+        border-bottom: 1px solid rgba(244, 244, 244, 0.4);
+        color: rgba(244, 244, 244, 0.7);
+    }
+
+    .slideout-sidebar ul li:last-child {
+        border-bottom: 0;
+    }
+
+    .slideout-sidebar ul li:hover {
+        color: rgba(244, 244, 244, 1);
+    }
+
+    /* -- Menu Icon -- */
+
+    #menu-toggle {
+        display: none;
+    }
+
+    .menu-icon {
+        position: fixed;
+        top: 400px;
+        right: 30px;
+        font-size: 24px;
+        z-index: 10;
+        transition: all 300ms ease-in-out;
+        cursor: pointer;
+    }
+
+
+
+    /*-- The Magic --*/
+    #menu-toggle:checked~.slideout-sidebar {
+        right: 0px;
+    }
+
+    #menu-toggle:checked+.menu-icon {
+        right: 510px;
+    }
+
+
+
+    /* -- Media Queries -- */
+
+
+    @media (max-width: 767px) {
+
+
+        .slideout-sidebar ul {
+            text-align: center;
+            max-width: 200px;
+            margin: 30px auto 0;
+        }
+
+        .menu-icon {
+            left: 20px
+        }
+
+        #menu-toggle:checked~.slideout-sidebar {
+            width: 100%;
+        }
+
+        #menu-toggle:checked+.menu-icon {
+            left: 87%;
+            color: #fafafa;
+        }
+
+        @media screen and (max-width: 736px) and (orientation: landscape) {
+
+            .slideout-sidebar {
+                padding: 0;
+            }
+
+            .slideout-sidebar ul {
+                max-width: 100%;
+                margin: 60px auto 0;
+            }
+
+            .slideout-sidebar ul li {
+                display: inline-block;
+                border-bottom: 0;
+                width: 72px;
+                padding: 18px 24px;
+                margin: 0 6px 12px;
+                color: #ffffff;
+                background-color: #777;
+            }
+
+        }
+
+    }
+}

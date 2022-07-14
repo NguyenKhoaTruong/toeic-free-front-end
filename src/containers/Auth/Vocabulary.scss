@@ -1,0 +1,254 @@
+// .vocabulary-container {
+
+//     height: max-content;
+
+//     .vocabulary-content {
+
+
+
+//         .list-vocabulary {
+
+//             position: fixed;
+
+
+//             .list-group-name-vocabulary {
+
+//                 width: 253px;
+//                 cursor: pointer;
+//                 margin: 10px;
+//                 border-radius: 15px;
+
+//                 a {
+//                     background: #aaadff;
+//                     font-size: 15px;
+
+
+//                     &:hover {
+//                         box-shadow: inset -300px 0 0 0 #d1c420;
+//                         color: white;
+//                     }
+//                 }
+
+//             }
+//         }
+
+//         .main-content-nav-vocabulary {
+//             position: fixed;
+//             top: 53px;
+//             background: #eddec4;
+//             border-radius: 10px;
+
+//             .main-content {
+//                 .span-main-content {
+//                     font-size: 30px;
+
+
+//                 }
+
+//                 .li-main-content {
+//                     font-size: 18px;
+
+//                     a {
+//                         text-decoration: none;
+//                         color: black;
+
+//                     }
+
+//                     :hover {
+//                         color: red;
+//                         text-decoration: underline;
+//                     }
+//                 }
+//             }
+
+//             .pager {
+//                 list-style: none;
+//                 display: flex;
+
+//                 li {
+//                     cursor: pointer;
+//                     display: inline-block;
+//                     padding: 5px;
+//                     font-size: 15px;
+//                     font-weight: bold;
+//                 }
+
+//                 li.active {
+//                     background-color: #ffc107;
+//                     border-radius: 2px;
+//                 }
+//             }
+//         }
+
+
+//         .list-lesson-content {
+//             .vocabulary-lesson-content {
+//                 width: 100%;
+
+//                 .title-content-part {}
+
+//                 .list-content-vocabulary {
+//                     display: inline-grid;
+//                     margin: 2rem;
+//                     width: 320px;
+//                     height: 360px;
+//                     // margin: 20px;
+
+//                     img {
+//                         border-radius: 20px;
+//                         width: 250px;
+//                         height: 180px;
+//                     }
+//                 }
+
+//                 .pager {
+//                     list-style: none;
+//                     display: flex;
+
+//                     li {
+//                         cursor: pointer;
+//                         display: inline-block;
+//                         padding: 5px;
+//                         font-size: 15px;
+//                         font-weight: bold;
+//                     }
+
+//                     li.active {
+//                         background-color: #ffc107;
+//                         border-radius: 10px;
+//                     }
+//                 }
+
+//                 b {
+//                     margin: 10px;
+//                 }
+
+
+//             }
+//         }
+
+//     }
+
+
+//     .vocabulary-content-right {
+//         width: 5%;
+
+//     }
+// }
+
+.container-vocabulary {
+    .content-vocabulary {
+        .ad-vocabulary {
+            .img-ad-vocabulary {
+                width: 100%;
+                height: 700px;
+                object-fit: contain;
+            }
+        }
+
+        .content-vocabulary-list {
+            margin-right: 15px;
+            margin-top: 20px;
+
+            .show-content-vocabulary {
+                // text-align: center;
+
+                .title-text-vocabulary {
+                    font-size: 30px;
+                    color: red;
+                    font-family: sans-serif;
+                    margin: 10px;
+                }
+
+                .list-option-vocabulary-part {
+                    text-align: center;
+
+                    .item-option {
+                        width: 250px;
+                        height: 250px;
+                        text-align: center;
+                        display: inline-grid;
+                        margin: 10px;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        transition: transform linear 0.2s;
+                        transform: translateY(0);
+
+                        &:hover {
+                            transform: translateY(-3px);
+                        }
+
+                        .img-part-option {
+                            width: 90%;
+                            height: 200px;
+                            border-radius: 20px;
+                            margin: 10px;
+                            background-size: cover;
+                            background-repeat: round;
+                        }
+
+                        .name-part-option {
+                            font-size: 20px;
+                            font-weight: 800;
+                        }
+                    }
+                }
+
+                .content-text-vocabulary {
+                    .main-content-vocabulary {
+                        .list-main-content-vocabulary {
+                            .title-list-main {
+                                font-size: 20px;
+
+                            }
+
+                            .option-list-main {
+                                a {
+                                    display: flex;
+                                    text-align: justify;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+
+                    .text {
+                        .title-step {
+                            font-size: 20px;
+                            color: deeppink;
+                            text-align: justify;
+                        }
+
+                        .content-title-step {
+                            font-size: 15px;
+                            text-align: justify;
+                        }
+                    }
+
+                    .share-content-vocabulary {
+                        width: 100%;
+
+                        .img-show-share-content-vocabulary {
+                            width: 100%;
+                            margin-top: 10px;
+                            transition: transform .3s;
+                            cursor: pointer;
+                        }
+
+                        :hover {
+
+                            width: 400px;
+                            -ms-transform: scale(1.5);
+                            -webkit-transform: scale(1.5);
+                            transform: scale(1.5);
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+
+    }
+}

@@ -1,0 +1,87 @@
+.slick-user {
+    img {
+        width: 500px;
+        height: 500px;
+    }
+
+    p.text-center.font-weight-bold {
+        font-size: xx-large;
+    }
+
+    button.slick-arrow.slick-prev {
+        /* border: 1px solid red; */
+        z-index: 10;
+        left: 15px;
+        background: gray;
+        border-radius: 50%;
+        /* font-size: 30px !important; */
+    }
+
+    button.slick-arrow.slick-next {
+
+        right: 0;
+        z-index: 10;
+        background: gray;
+        border-radius: 50%;
+    }
+
+    .card-deck {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        display: flex !important;
+
+
+
+        .card {
+            .card-title {
+                text-align: center;
+                font-size: 22px;
+                font-family: monospace;
+            }
+
+            .card-text {
+                text-align: center;
+                font-size: 20px;
+                font-family: monospace;
+            }
+
+            .card-img-top {
+                height: 100px;
+                width: 100px;
+                margin: auto;
+                margin-right: -57px;
+                padding-right: 20px 0;
+
+            }
+
+            .card-footer {
+                text-align: center;
+
+                .text-muted {
+                    font-size: 15px;
+                }
+            }
+
+
+            .card-img-left {
+                height: 100px;
+                width: 100px;
+                // margin: auto;
+                // margin-left: -57px;
+                // padding-left: 20px 0;
+            }
+
+            .card-img-center {
+                height: 120px;
+                width: 120px;
+                margin: auto;
+                margin-top: -57px;
+                padding-top: 20px 0;
+                background: center center no-repeat;
+                background-size: cover;
+                border-radius: 50%;
+            }
+        }
+    }
+
+}
